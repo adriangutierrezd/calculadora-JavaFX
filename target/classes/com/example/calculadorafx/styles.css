@@ -1,0 +1,29 @@
+.btnCalc{
+    -fx-pref-width: 116;
+    -fx-pref-height: 80;
+    -fx-font-size: 30;
+    -fx-background-color: transparent;
+}
+
+#calculatorContainer{
+    -fx-pref-height: 480;
+}
+.btnCalc:hover{
+    -fx-background-color: #cccccc;
+}
+
+.btnCalc:pressed{
+    -fx-background-color: #a6a6a6;
+}
+
+#resultContainer{
+    -fx-min-height: 70;
+    -fx-font-size: 27;
+    -fx-focus-color: transparent ;
+}
+
+.historyResults{
+    -fx-font-size: 20;
+    -fx-margin-bottom: 5;
+}
+
